@@ -1,0 +1,55 @@
+input{
+	height:60px;
+	width:60px;
+	background:black;
+	color:white;
+}
+#display{
+	height: 383px;
+    width: 252px;
+    border: 2px #1b1919 solid;
+    margin: auto;
+    border-right: 5px #5a5252 solid;
+    border-bottom: 5px #463d3d solid;
+	
+}
+#calculator{
+	margin-top: 82px;;
+}
+#divided,#mul,#sub,#add{
+	background:#8d2ed4;
+}
+#equation{
+	background:orange;
+}
+input:hover{
+	background: #0b2380;
+	
+}
+
+#add:hover{
+	
+    background: #0b2380
+}
+#divided:hover{
+	
+    background: #0b2380
+}
+#mul:hover{
+	
+    background:#0b2380
+}
+#sub:hover{
+
+    background: #0b2380
+}
+#equation:hover{
+	background: #919419;
+}
+#result{
+	    height: 85px;
+    width: 252px;
+    background-color: white;
+    margin-top: -82px;
+
+}

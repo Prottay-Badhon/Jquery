@@ -1,0 +1,22 @@
+#pDiv,#div2{
+	color:white;
+	background:red;
+	height:200px;
+	width:250px;
+}
+#Div3{
+	color:white;
+	background:blue;
+	float:right;
+	height:200px;
+	width:250px;
+	margin-left:500px
+}
+#Div4{
+	color:white;
+	background:green;
+	float:left;
+	height:200px;
+	width:250px;
+	
+}

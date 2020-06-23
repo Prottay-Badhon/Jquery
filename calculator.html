@@ -1,0 +1,55 @@
+<html>
+<head><link rel="stylesheet" href="calculator.css"/></head>
+<body>
+<div id="display">
+<div style="float: right;
+    height: 19px;
+    width: 51px;
+    color: black;
+    background: black;
+    margin-right: 1px;
+    padding: 2px;
+    color: white;">Badhon</div>
+<div id="calculator">
+
+<div id="calHead">
+
+<input type="text" style="color:black;font-size:26px;font-weight:bold;font-family:arial;float:left" dir="" id="result"/>
+</div>
+<div id="div1">
+<input type="button" value="c" id="delete"/>
+<input type="button" value="+/-" id="" onclick="insertNumber(+/-)"/>
+<input type="button" value="%" id="" onclick="insertNumber('%')"/>
+<input type="button" value="/" id="divided" onclick="insertNumber('/')"/>
+</div>
+<div id="div2">
+<input type="button" value="7" id="" onclick="insertNumber(7)"/>
+<input type="button" value="8" id="" onclick="insertNumber(8)"/>
+<input type="button" value="9" id="" onclick="insertNumber(9)"/>
+<input type="button" value="X" id="mul" onclick="insertNumber('*')"/>
+</div>
+<div id="div3">
+<input type="button" value="4" id="" onclick="insertNumber(4)"/>
+<input type="button" value="5" id="" onclick="insertNumber(5)"/>
+<input type="button" value="6" id="" onclick="insertNumber(6)"/>
+<input type="button" value="-" id="sub" onclick="insertNumber('-')"/>
+</div>
+<div id="div4">
+<input type="button" value="1" id="" onclick="insertNumber(1)"/>
+<input type="button" value="2" id="" onclick="insertNumber(2)"/>
+<input type="button" value="3" id="" onclick="insertNumber(3)"/>
+<input type="button" value="+" id="add" onclick="insertNumber('+')"/>
+</div>
+<div id="div5">
+<input type="button" value="0" id="" onclick="insertNumber(0)"/>
+<input type="button" value="." id="" onclick="insertNumber('.')"/>
+<input type="button" value="DEL" id="" onclick="deleteNum()"/>
+<input type="button" value="=" id="equation" onclick="calculate()"/>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="calculator.js"></script>
+</body>
+</html>
